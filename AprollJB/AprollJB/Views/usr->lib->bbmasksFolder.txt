@@ -1,0 +1,24 @@
+usr(folder) -> lib(folder) -> bbmasks(folder)
+|
+|- D53g_Audio.dmc 
+|- D53g_Coex.dmc 
+|- D53g_Default.dmc 
+|- D53g_GPS.dmc 
+|- D53g_Lite.dmc 
+|- D53g_RF.dmc 
+|- D53g_Sleep.dmc 
+|- D53g_STx.dmc 
+|- D53g_SUPL.dmc 
+|- D53g_Verbose.dmc 
+|- D53g_VoLTE.dmc 
+|- D53p_Audio.dmc 
+|- D53p_Coex.dmc 
+|- D53p_Default.dmc 
+|- D53p_GPS.dmc 
+|- D53p_Lite.dmc 
+|- D53p_RF.dmc 
+|- D53p_Sleep.dmc 
+|- D53p_STx.dmc 
+|- D53p_SUPL.dmc 
+|- D53p_Verbose.dmc 
+|- D53p_VoLTE.dmc 

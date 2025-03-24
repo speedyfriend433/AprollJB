@@ -1,0 +1,5 @@
+usr(folder) -> lib(folder) -> xpc(folder)
+|
+|- support.bundle(folder) -> _CodeSignature(folder) -> CodeResources(txt file)
+|- support.bundle(folder) -> info.plist
+|- support.bundle(folder) -> support(binary file) 

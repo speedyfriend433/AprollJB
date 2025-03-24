@@ -1,0 +1,38 @@
+Library(folder)
+|
+|- Caches(folder) -> 
+|- Filesystems(folder) -> 
+|- Wallpaper(folder) -> Collections(folder)
+|- Wallpaper(folder) -> DefaultWallpapers-iphone.plist
+|- Wallpaper(folder) -> Stills(folder)
+|- RegionFeatures(folder) -> RegionFeatures_audio.txt
+|- RegionFeatures(folder) -> RegionFeatures_iphone.txt
+|- RegionFeatures(folder) -> RegionFeatures_ipod.txt
+|- RegionFeatures(folder) -> RegionFeatures_ipad.txt
+|- RegionFeatures(folder) -> RegionFeatures_watch.txt
+|- Updates(folder) -> 
+|- LaunchDaemons(folder) -> com.apple.factory.NFQRCoded.plist
+|- Ringtones(folder) -> Hillside.m4r
+|- Ringtones(folder) -> Illuminate.m4r
+|- Ringtones(folder) -> Timba.m4r
+|- Ringtones(folder) -> Boing.m4r
+|- Ringtones(folder) -> Beacon.m4r
+|- Ringtones(folder) -> Motorcycle.m4r
+|- LaunchAgents(folder) -> com.apple.AuthenticationServiceAgent.plist
+|- Frameworks(folder) -> 
+|- MobileDevice(folder) -> ProvisioningProfiles(folder) -> mis.db
+|- MobileDevice(folder) -> ProvisioningProfiles(folder) -> mis.db-wal
+|- MobileDevice(folder) -> ProvisioningProfiles(folder) -> mis.db-shm
+|- Logs(folder) -> AppleSupport(folder)
+|- Logs(folder) -> OTACrashCopier(folder)
+|- Logs(folder) -> CrashReporter(folder)
+|- Logs(folder) -> lockdownd.log
+|- Preferences(folder) -> SystemConfiguration(folder)
+|- Preferences(folder) -> com.apple,networkextension.uuidcache.plist
+|- Audio(folder) -> Plug-Ins(folder)
+|- Audio(folder) -> Tunings(folder)
+|- Managed Preferences(folder) -> mobile(folder)
+|- Keychains(folder) -> keychain-2.db-wal
+|- Internet Plug-Ins(folder) -> 
+|- Printers(folder) -> 
+|- Application Support(folder) -> 

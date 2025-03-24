@@ -1,0 +1,5 @@
+usr(folder) -> lib(folder) -> swift(folder)
+|
+|- libswiftCreateML.dylib
+|- libswiftRemoteMirror.dylib
+|- System.swiftcrossimport(folder) -> Foundation.swiftoverlay(txt file)

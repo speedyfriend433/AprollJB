@@ -1,0 +1,25 @@
+usr(folder) -> bin(folder)
+|
+|- abmlite 
+|- afktool
+|- brctl
+|- codecctl
+|- DumpBasebandCrash
+|- fileproviderctl
+|- footprint
+|- hidutil
+|- hpmdiagnose
+|- IOMFB_FDR_Loader
+|- kbdebug
+|- lsdiagnose
+|- ltop
+|- nfsstat
+|- PerfPowerServicesExtended
+|- powerlogHelperd
+|- swift-inspect
+|- sysdiagnose
+|- tailspin
+|- taskinfo
+|- umtool
+|- vm_stat
+|- zprint

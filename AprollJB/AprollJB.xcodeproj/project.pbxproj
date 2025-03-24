@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DEC12A2D7AE02900FB67FF /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DEC1292D7AE02900FB67FF /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15B8B312D7AAA43005F4408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15B8B182D7AAA42005F4408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15B8B1F2D7AAA42005F4408;
+			remoteInfo = AprollJB;
+		};
+		E15B8B3B2D7AAA43005F4408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15B8B182D7AAA42005F4408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15B8B1F2D7AAA42005F4408;
+			remoteInfo = AprollJB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15B8B202D7AAA42005F4408 /* AprollJB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprollJB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15B8B302D7AAA43005F4408 /* AprollJBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprollJBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15B8B3A2D7AAA43005F4408 /* AprollJBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprollJBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DEC1292D7AE02900FB67FF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E15B8B222D7AAA42005F4408 /* AprollJB */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AprollJB;
+			sourceTree = "<group>";
+		};
+		E15B8B332D7AAA43005F4408 /* AprollJBTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AprollJBTests;
+			sourceTree = "<group>";
+		};
+		E15B8B3D2D7AAA43005F4408 /* AprollJBUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AprollJBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15B8B1D2D7AAA42005F4408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DEC12A2D7AE02900FB67FF /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B8B2D2D7AAA43005F4408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B8B372D7AAA43005F4408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15B8B172D7AAA42005F4408 = {
+			isa = PBXGroup;
+			children = (
+				E15B8B222D7AAA42005F4408 /* AprollJB */,
+				E15B8B332D7AAA43005F4408 /* AprollJBTests */,
+				E15B8B3D2D7AAA43005F4408 /* AprollJBUITests */,
+				E1DEC1282D7AE02900FB67FF /* Frameworks */,
+				E15B8B212D7AAA42005F4408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15B8B212D7AAA42005F4408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15B8B202D7AAA42005F4408 /* AprollJB.app */,
+				E15B8B302D7AAA43005F4408 /* AprollJBTests.xctest */,
+				E15B8B3A2D7AAA43005F4408 /* AprollJBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DEC1282D7AE02900FB67FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEC1292D7AE02900FB67FF /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15B8B1F2D7AAA42005F4408 /* AprollJB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15B8B442D7AAA43005F4408 /* Build configuration list for PBXNativeTarget "AprollJB" */;
+			buildPhases = (
+				E15B8B1C2D7AAA42005F4408 /* Sources */,
+				E15B8B1D2D7AAA42005F4408 /* Frameworks */,
+				E15B8B1E2D7AAA42005F4408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E15B8B222D7AAA42005F4408 /* AprollJB */,
+			);
+			name = AprollJB;
+			packageProductDependencies = (
+			);
+			productName = AprollJB;
+			productReference = E15B8B202D7AAA42005F4408 /* AprollJB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15B8B2F2D7AAA43005F4408 /* AprollJBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15B8B472D7AAA43005F4408 /* Build configuration list for PBXNativeTarget "AprollJBTests" */;
+			buildPhases = (
+				E15B8B2C2D7AAA43005F4408 /* Sources */,
+				E15B8B2D2D7AAA43005F4408 /* Frameworks */,
+				E15B8B2E2D7AAA43005F4408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15B8B322D7AAA43005F4408 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E15B8B332D7AAA43005F4408 /* AprollJBTests */,
+			);
+			name = AprollJBTests;
+			packageProductDependencies = (
+			);
+			productName = AprollJBTests;
+			productReference = E15B8B302D7AAA43005F4408 /* AprollJBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15B8B392D7AAA43005F4408 /* AprollJBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15B8B4A2D7AAA43005F4408 /* Build configuration list for PBXNativeTarget "AprollJBUITests" */;
+			buildPhases = (
+				E15B8B362D7AAA43005F4408 /* Sources */,
+				E15B8B372D7AAA43005F4408 /* Frameworks */,
+				E15B8B382D7AAA43005F4408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15B8B3C2D7AAA43005F4408 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E15B8B3D2D7AAA43005F4408 /* AprollJBUITests */,
+			);
+			name = AprollJBUITests;
+			packageProductDependencies = (
+			);
+			productName = AprollJBUITests;
+			productReference = E15B8B3A2D7AAA43005F4408 /* AprollJBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15B8B182D7AAA42005F4408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E15B8B1F2D7AAA42005F4408 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E15B8B2F2D7AAA43005F4408 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E15B8B1F2D7AAA42005F4408;
+					};
+					E15B8B392D7AAA43005F4408 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E15B8B1F2D7AAA42005F4408;
+					};
+				};
+			};
+			buildConfigurationList = E15B8B1B2D7AAA42005F4408 /* Build configuration list for PBXProject "AprollJB" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15B8B172D7AAA42005F4408;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E15B8B212D7AAA42005F4408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15B8B1F2D7AAA42005F4408 /* AprollJB */,
+				E15B8B2F2D7AAA43005F4408 /* AprollJBTests */,
+				E15B8B392D7AAA43005F4408 /* AprollJBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15B8B1E2D7AAA42005F4408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B8B2E2D7AAA43005F4408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B8B382D7AAA43005F4408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15B8B1C2D7AAA42005F4408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B8B2C2D7AAA43005F4408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15B8B362D7AAA43005F4408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15B8B322D7AAA43005F4408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15B8B1F2D7AAA42005F4408 /* AprollJB */;
+			targetProxy = E15B8B312D7AAA43005F4408 /* PBXContainerItemProxy */;
+		};
+		E15B8B3C2D7AAA43005F4408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15B8B1F2D7AAA42005F4408 /* AprollJB */;
+			targetProxy = E15B8B3B2D7AAA43005F4408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E15B8B422D7AAA43005F4408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15B8B432D7AAA43005F4408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15B8B452D7AAA43005F4408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AprollJB/Preview Content\"";
+				DEVELOPMENT_TEAM = LQ7T7C4783;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.AprollJB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E15B8B462D7AAA43005F4408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AprollJB/Preview Content\"";
+				DEVELOPMENT_TEAM = LQ7T7C4783;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.AprollJB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E15B8B482D7AAA43005F4408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ7T7C4783;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.AprollJBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AprollJB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AprollJB";
+			};
+			name = Debug;
+		};
+		E15B8B492D7AAA43005F4408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ7T7C4783;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.AprollJBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AprollJB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AprollJB";
+			};
+			name = Release;
+		};
+		E15B8B4B2D7AAA43005F4408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ7T7C4783;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.AprollJBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AprollJB;
+			};
+			name = Debug;
+		};
+		E15B8B4C2D7AAA43005F4408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ7T7C4783;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedy67.AprollJBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AprollJB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15B8B1B2D7AAA42005F4408 /* Build configuration list for PBXProject "AprollJB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B8B422D7AAA43005F4408 /* Debug */,
+				E15B8B432D7AAA43005F4408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15B8B442D7AAA43005F4408 /* Build configuration list for PBXNativeTarget "AprollJB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B8B452D7AAA43005F4408 /* Debug */,
+				E15B8B462D7AAA43005F4408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15B8B472D7AAA43005F4408 /* Build configuration list for PBXNativeTarget "AprollJBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B8B482D7AAA43005F4408 /* Debug */,
+				E15B8B492D7AAA43005F4408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15B8B4A2D7AAA43005F4408 /* Build configuration list for PBXNativeTarget "AprollJBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15B8B4B2D7AAA43005F4408 /* Debug */,
+				E15B8B4C2D7AAA43005F4408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15B8B182D7AAA42005F4408 /* Project object */;
+}

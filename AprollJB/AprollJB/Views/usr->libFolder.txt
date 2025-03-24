@@ -1,0 +1,19 @@
+usr(folder) -> lib(folder)
+|
+|- bbmasks(folder)
+|- dyld
+|- libBacktraceRecording.dylib
+|- libCoreKE.dylib
+|- libFaultOrdering.dylib
+|- libMainThreadChecker.dylib
+|- libMTLCapture.dylib
+|- libMTLToolsDiagnostics.dylib
+|- libRPAC.dylib
+|- libSystem.B_asan.dylib
+|- libSystem_asan.dylib
+|- log(folder)
+|- swift(folder)
+|- system(folder)
+|- updaters(folder)
+|- usd(folder)
+|- xpc(folder)

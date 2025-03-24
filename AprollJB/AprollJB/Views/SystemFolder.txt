@@ -1,0 +1,56 @@
+System(folder)
+|
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> lib(folder) -> libobjc-trampolines.dylib
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> lib(folder) -> libstdc++.6.dylib
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> lib(folder) -> libstdc++.6.0.9.dylib
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> lib(folder) -> swift(folder)
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> lib(folder) -> libffi-trampolines.dylib
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> lib(folder) -> libstdc++.dylib
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> DriverKit(folder) -> System(folder) -> Library(folder) -> dyld(folder) -> dyld_shared_cache_arm64e.symbols
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> DriverKit(folder) -> System(folder) -> Library(folder) -> dyld(folder) -> dyld_shared_cache_arm64e
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> Library(folder) -> Caches(folder)
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> Library(folder) -> CoreServices(folder)
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> Library(folder) -> Frameworks(folder)
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder)
+|- Cryptexes(folder) -> OS(folder) -> usr(folder) -> System(folder) -> Library(folder) -> Accounts(folder)
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> com.apple.Safari.History
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> webbookmarksd
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> webpushd
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> AuthenticationServiceAgent
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> safarifetcherd
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> webinspectord
+|- Cryptexes(folder) -> App(folder) -> usr(folder) -> libexec(folder) -> passwordbreachd
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> UserNotifications(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> Trial(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> CoreServices(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> UsageBundles(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> AWD(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> DataClassMigrators(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> PreferenceBundles(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> PreferencesSyncBundles(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> CacheDelete(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> Accounts(folder)
+|- Cryptexes(folder) -> App(folder) -> System(folder) -> Library(folder) -> Assistant(folder)
+|- DriverKit(folder) -> usr(folder) -> include(folder) -> c++(folder) -> v1(folder)
+|- DriverKit(folder) -> usr(folder) -> lib(folder) -> system(folder)
+|- DriverKit(folder) -> usr(folder) -> lib(folder) -> libSystem_debug.dylib
+|- DriverKit(folder) -> Runtime(folder) -> usr(folder) -> include(folder)
+|- DriverKit(folder) -> Runtime(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> System.framework(folder)
+|- DriverKit(folder) -> Runtime(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> Kernel.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> AudioDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> PCIDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> DriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> NetworkingDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> USBDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> Frameworks(folder) -> HIDDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> OLYHALDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> CoreCaptureDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> IOFileValidation.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> MallocStackLogging.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> TimeSensitiveNetworking.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> AFKDriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> IO80211DriverKit.framework(folder)
+|- DriverKit(folder) -> System(folder) -> Library(folder) -> PrivateFrameworks(folder) -> BroadcomWLANDriverKit.framework(folder)
+|- Library(folder) -> Pearl(folder)
+|- Applications(folder) -> Family(folder) -> inviteMessageBubbleExtension.appex(folder)
+|- Developer(folder) -> 
