@@ -3,7 +3,7 @@
 
 ## Supported Devices
 - All iPhone / iPadOS Devices!
-- All iOS / iPadOS!
+- All iOS / iPadOS! (Minimum iOS Version is 16.0 due to unsupported functions used in this process)
 
 
 ## Features
